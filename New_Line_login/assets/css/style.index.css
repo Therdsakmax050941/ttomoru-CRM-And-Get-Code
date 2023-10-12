@@ -1,0 +1,95 @@
+.mySlides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease;
+}
+
+.mySlides:hover {
+    transform: scale(1.1);
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    transition: opacity 0.3s ease;
+}
+
+.logout-btn:hover {
+    opacity: 0.7;
+}
+  /* Add styles for video containers */
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.video-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.video-layer video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.carousel-text {
+display: none;
+}
+
+.carousel-text.active {
+display: block;
+
+}
+
+.carousel-content {
+position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+color: #FD0032 ;
+font-size: 24px;
+text-align: center;
+font-size: 36px; /* Increase the font size */
+font-family: 'Arial', sans-serif; /* Change the font to Arial or any desired font */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+font-weight: bold;
+}
+.btn-line {
+    /* เพิ่ม box-shadow เพื่อให้ปุ่มมีเงา */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* อื่นๆสามารถปรับแต่งตามความต้องการ */
+    background-color: #06C755; /* สีพื้นหลัง */
+    color: #ffffff; /* สีข้อความ */
+    border: none; /* ไม่มีเส้นขอบ */
+    padding: 10px 20px; /* ขนาดของปุ่ม */
+    border-radius: 5px; /* ขอบมน */
+    cursor: pointer; /* เมื่อเมาส์ชี้ไปที่ปุ่มเป็นสัญลักษณ์เส้นล่าง */
+  }
+  
+  
+  .btn-line img {
+    width: 20px; /* ปรับขนาดของรูปภาพตามต้องการ */
+    vertical-align: middle; /* จัดการให้รูปอยู่ตรงกลางแนวตั้งกับข้อความ */
+    margin-right: 5px; /* ระยะห่างระหว่างรูปกับข้อความ */
+  }
+  

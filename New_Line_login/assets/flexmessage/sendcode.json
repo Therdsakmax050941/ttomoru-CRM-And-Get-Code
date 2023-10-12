@@ -1,0 +1,110 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://ttomoru.com/wp-content/uploads/2023/10/TTOMORU-WHITE.png",
+        "size": "xl",
+        "offsetTop": "0px",
+        "offsetBottom": "0px",
+        "offsetEnd": "0px",
+        "offsetStart": "0px"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      }
+    ],
+    "spacing": "20px",
+    "margin": "20px",
+    "backgroundColor": "#000000"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Have a Nice day",
+        "color": "#FFFFFF",
+        "size": "lg",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "รหัสสินค้า: สินค้า",
+        "color": "#FFFFFF",
+        "size": "sm",
+        "align": "start",
+        "offsetTop": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "User : myemail",
+            "size": "sm",
+            "margin": "md",
+            "weight": "bold"
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "Pass : mypassword",
+            "size": "sm",
+            "margin": "md",
+            "weight": "bold"
+          }
+        ],
+        "backgroundColor": "#FFFFFF",
+        "borderWidth": "bold",
+        "borderColor": "#FFFFFF",
+        "alignItems": "flex-start",
+        "cornerRadius": "md",
+        "height": "80px"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียดเพิ่มเติม",
+          "uri": "https://ttomoru.com/my-account/"
+        },
+        "style": "primary",
+        "color": "#0A298B",
+        "height": "sm"
+      }
+    ],
+    "spacing": "20px",
+    "margin": "20px",
+    "backgroundColor": "#000000",
+    "borderWidth": "bold"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "text": "หมายเหตุ : หนึ่งคำสั่งซื้อรับรหัสได้เพียง 1 ครั้ง",
+        "align": "start",
+        "offsetTop": "sm",
+        "size": "xxs",
+        "color": "#FFFFFF"
+      }
+    ],
+    "backgroundColor": "#000000"
+  }
+}

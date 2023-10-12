@@ -1,0 +1,71 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://ttomoru.com/wp-content/uploads/2023/07/payment-bg2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcfcfc;
+}
+
+.modal {
+  background-color: black;
+}
+
+/* CSS สำหรับปุ่มเมื่อถูกปิดใช้งาน (disabled) */
+#btnConfirm:disabled {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
+.neon{
+color: #fff;
+text-shadow: 
+  0 0 0.033em #fff, 
+  0 0 0.08em #fff,
+  0 0 0.1em #041c83, 
+  0 0 0.2em #041c83, 
+  0 0 0.3em #041c83, 
+  0 0 1em #041c83,
+  0 0 1.5em #041c83;
+}
+
+.neon span{
+animation-name: flicker;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+.neon span:nth-child(2n){
+animation-delay: 3s;
+}
+
+@keyframes flicker {
+0%,
+19.999%,
+22%,
+62.999%,
+64%,
+64.999%,
+72%,
+100% {
+  opacity: 1;
+}
+20%,
+21.999%,
+63%,
+63.999%,
+65%,
+71.999% {
+  opacity: 0.33;
+}
+}
+.bg-black {
+  background-color: #000000;
+}

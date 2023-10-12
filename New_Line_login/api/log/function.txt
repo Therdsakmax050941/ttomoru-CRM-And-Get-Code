@@ -1,0 +1,12 @@
+2023-10-07 11:34:29 - Respone Send Flex message : {"sentMessages":[{"id":"476204443545632818","quoteToken":"s1lLrC1w9sVsstzOXyjl1JN7ctMkpOCJoJQ_ERb9RU3H3_DdJ-cjxuQ4PNv5jjhc3FZ9bl2dX4z2yYwGoXkAJc_nGk0oxe4IpgslhQcR-K4NY3YHuk2a7XmKL0Gr0zLtUigAKdjDsZr71DQjv5Wd-g"}]}
+2023-10-07 11:34:29 - การส่ง Flex Message สำเร็จ
+2023-10-07 11:43:57 - Respone Send Flex message : {"sentMessages":[{"id":"476205395737051812","quoteToken":"cBK_OZcPCQXNGnFlj8JQ59aeEjko1bQHYapY6__0cNyYhP9ITZDuzzPG8Mw_rnZpQv0yi6mqZOUp2iKwSBaBGRVw-D-FX90Li-8vWzBiPRzvJF8D4VUymOloVD1h8MKlsp2MPv7J4ksKzBH3OiyMSg"}]}
+2023-10-07 11:43:57 - การส่ง Flex Message สำเร็จ
+2023-10-07 11:44:30 - Respone Send Flex message : {"sentMessages":[{"id":"476205450212933652","quoteToken":"IWCn2FIKI6i0n7AwQDKRYchxaPn6AkUaChWqVgAXquhdLWpBI_tfohaeSsyl-sGFm_p0WPa3xiwfNholzOHSjcMpq9oWgifJwy0mfbU4vANtrTGQ8l3gxY55_rMrWCdsCUYd0wHQPIfG_V-eY9heeQ"}]}
+2023-10-07 11:44:30 - การส่ง Flex Message สำเร็จ
+2023-10-07 11:46:49 - Respone Send Flex message : {"sentMessages":[{"id":"476205684841512961","quoteToken":"ostINpl2FOaxMCF794ijqkeemOaOMAO2sdzIcMM7jPIbkh0K6B4krZgW5twzvCQyOutNr2cSIyMijikDuUJCr_BAPbSqz0L8qndE3yUY2MbxQIwSopQKQWkfWSvTmaBtwP6R22oVQ9QsNnwOiaPHww"}]}
+2023-10-07 11:46:49 - การส่ง Flex Message สำเร็จ
+2023-10-07 11:47:54 - Respone Send Flex message : {"sentMessages":[{"id":"476205793105674728","quoteToken":"ZYV8gmuGiakd6bGHDg7EWFTLMKaz-BfAAwPebiPYsbMIwZtE8ccdPZjrR1A3thkK_7jMI4m6lvZ-xa4BUl4FG59rc_Q6-FpNKs_GTTycbwYX9jD1ST5ugZKkjXQ05exwBKk4MKf1IOhVtDHETYNk8A"}]}
+2023-10-07 11:47:54 - การส่ง Flex Message สำเร็จ
+2023-10-07 11:48:38 - Respone Send Flex message : {"sentMessages":[{"id":"476205866338222562","quoteToken":"ZGniaFDE0kEK-xB0W1HNTbPpSnCzqmeEOE3dScOTMNiXPA9HxOPltrscY_iYyNUYfK-m-XTEisLdvx2x_Fh4owIWHouzHTDCKEsrOoWR4eWSqJOeaerEtgIhxaPyaYr5cW_6rdRIYmbEJJ7_aUoF5w"}]}
+2023-10-07 11:48:38 - การส่ง Flex Message สำเร็จ
