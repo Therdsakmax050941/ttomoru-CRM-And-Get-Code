@@ -57,7 +57,6 @@
   </symbol>
   <symbol id="pages" viewBox="0 0 16 16">
     <rect x="4" width="12" height="12" transform="translate(20 12) rotate(-180)" />
-    <polygon points="2 14 2 2 0 2 0 14 0 16 2 16 14 16 14 14 2 14" />
   </symbol>
   <symbol id="appearance" viewBox="0 0 16 16">
     <path d="M3,0V7A2,2,0,0,0,5,9H6v5a2,2,0,0,0,4,0V9h1a2,2,0,0,0,2-2V0Zm9,7a1,1,0,0,1-1,1H9v6a1,1,0,0,1-2,0V8H5A1,1,0,0,1,4,7V6h8ZM4,5V1H6V4H7V1H9V4h1V1h2V5Z" />
@@ -133,11 +132,11 @@
         </a>
       </li>
       <li>
-        <a href="#0">
+        <a href="#0" onclick="Logout()" aria-label="logout">
           <svg>
             <use xlink:href="#users"></use>
           </svg>
-          <span>Users</span>
+          <span>Logout</span>
         </a>
       </li>
       <li>
@@ -156,4 +155,11 @@
       </li>
     </ul>
   </nav>
+  <script>
+function Logout() {
+    localStorage.removeItem('token');
+    window.location.reload();
+}
+</script>
+
 </header>
